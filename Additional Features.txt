@@ -1,0 +1,106 @@
+Additional Features
+
+
+-Empty Inputs(For MAC Addresses?)
+
+https://www.autoitscript.com/forum/topic/154439-chrome-udf/
+
+
+
+https://chrome.google.com/webstore/detail/close-all-tabs/jcokdfogijmigonkhckmhldgofjmfdak
+Close all tabs except customer fuction
+
+
+https://chrome.google.com/webstore/detail/external-application-butt/bifmfjgpgndemajpeeoiopbeilbaifdo?hl=en
+
+
+Chrome Communicating with SPN
+
+
+Send to Notepad button on notes / expandables
+ADD SPNOTES BUTTTONS (EXTRACT, Etc) to Tracker
+
+
+
+Change User Admin Button Colors
+
+Make all links Anchored
+
+
+//HOWTO//////////////
+Escape key for "How To" Exit
+
+
+Associate Arrow keys with scroll?
+(if not in an inputbox)
+//////////////////////
+
+
+Open back office automaticaly
+
+Send all windows from tracker to second screen
+https://stackoverflow.com/questions/1293777/opening-a-new-browser-page-on-the-second-monitor
+https://stackoverflow.com/questions/13835768/opening-a-window-on-second-monitor-screen-with-asp-net
+
+
+Automated cannot connect
+Automated Ghost call
+
+
+Veiw new customer after adding them right away
+
+
+
+https://stackoverflow.com/questions/574904/get-next-previous-element-using-javascript)
+
+
+BETA TESTING LIMIT
+
+Delete files
+https://www.howtogeek.com/201930/how-to-automatically-delete-files-in-your-download-folder-on-a-schedule/
+
+
+
+/icons/fatcow/16x16/control_reverse_blue.png
+
+
+
+ISSUES
+
+& SYMBOL NEEDS TO GO!!!!!
+
+
+///////Chrome communicating with SP
+possiblities
+-Extention Native Passing
+
+//////
+
+
+printscreen remote desktop
+
+
+Set focust on radio when resolution page has loaded
+
+
+MUST ONLY HAVE TWO CHROME WINDOWS OPEN AT ANY GIVEN TIME!!!!
+
+
+
+
+Create Calling number extraction
+
+
+
+MULTI MONITOR OPTIONS
+https://chrome.google.com/webstore/detail/tab-resize-split-screen-l/bkpenclhmiealbebdopglffmfdiilejc?hl=en
+
+
+Open all links in seperate window (put in Expandables and Howto Divs)
+https://css-tricks.com/snippets/jquery/open-external-links-in-new-window/
+https://chrome.google.com/webstore/detail/new-tab-new-window/dndlcbaomdoggooaficldplkcmkfpgff?hl=en
+
+
+
+https://chrome.google.com/webstore/detail/imacros-for-chrome/cplklnmnlbnpmjogncfgfijoopmnlemp?hl=en
+https://chrome.google.com/webstore/detail/kantu-browser-automation/gcbalfbdmfieckjlnblleoemohcganoc?hl=en

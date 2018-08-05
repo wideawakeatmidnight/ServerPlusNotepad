@@ -1,0 +1,52 @@
+/* BUTTON sSTYLESs */
+
+#assimbutton, .button_accept, .button_cancel, #search, .button, button.toollogin, #loadMoreButton, #retryButton, #next, div.buttons a, #profilepic_upload, fieldset button, div.buttons button, #refresh-subscriber-panel, #callerid_unlink_button {
+    background: #3498db;
+    background-image: linear-gradient(to
+
+bottom, #3498db, #2980b9);
+    border-radius: 5px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 4px 12px 4px 12px;
+    border: solid #1f628d 0px;
+    text-decoration: none;
+}
+
+#assimbutton:focus, #assimbutton:hover, .button_accept:focus, .button_accept:hover, .button_cancel:focus, .button_cancel:hover, #search:focus, #search:hover, .button:focus, .button:hover, button.toollogin:focus, button.toollogin:hover, #loadMoreButton:focus, #loadMoreButton:hover, #retryButton:focus, #retryButton:hover, #next:focus, #next:hover, div.buttons a:focus, div.buttons a:hover, #profilepic_upload:focus, #profilepic_upload:hover, fieldset button:focus, fieldset button:hover, div.buttons button:focus, div.buttons button:hover, #refresh-subscriber-panel:focus, #refresh-subscriber-panel:hover, #callerid_unlink_button:focus, #callerid_unlink_button:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to
+
+bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+    border: solid #1f628d 0px;
+}
+
+/* Hide Button Icons */
+
+div.buttons button img, fieldset button img, #next img, a.button img, div.buttons a img, a.button_accept img, #search img, button.button_accept img, #view4_singleagent_callsearch img, .buttons.navbar-btn img, button.buttons_selectsize img {
+    display: none;
+}
+
+/* small buttons */
+
+/*
+.buttons_small {
+    border-radius: 3px;
+    color: #000000;
+    background: #ffffff;
+    padding: 2px 5px 5px 6px;
+    border: solid black 1px;
+}
+
+.buttons_small:hover {
+    border-radius: 3px;
+    color: #082630;
+    background: #ffffff;
+    padding: 2px 5px 5px 6px;
+    border: solid #082630 1.1px;
+}
+
+/* END OF BUTTON sSTYLESs */

@@ -1,0 +1,624 @@
+body {
+    background: #082630;
+    color: white;
+}
+
+/* MENU STYLES */
+
+ul.nav.navbar-nav li a {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+/* Unnessary Info */
+
+#genericContent form h3 {
+    display: none;
+}
+
+legend {
+    color: white;
+}
+
+/* Popup Dialog */
+
+div.notice_start {
+    color: #000000;
+}
+
+div.notice_body {
+    color: #000000;
+}
+
+/* Call Bar */
+
+div.callbar {
+    color: #000000;
+    background-color: #ffffff;
+    padding-left: 16px;
+    border: 0px solid;
+    border-radius: 5px 5px 0px 0px;
+}
+
+/* Left Column Text */
+
+div.companyinfo_container {
+    color: black;
+}
+
+#subscriberPanel {
+    color: black;
+}
+
+/* Ticket Lables Text */
+
+div.views label {
+    color: #000000;
+}
+
+div.collapses label {
+    color: #000000;
+}
+
+/* BUTTON sSTYLESs */
+
+.button_accept, .button_cancel, #search, .button, button.toollogin, #loadMoreButton, #retryButton, #next, div.buttons a, #profilepic_upload, fieldset button, div.buttons button, #refresh-subscriber-panel, #callerid_unlink_button {
+    background: #3498db;
+    background-image: linear-gradient(to
+
+bottom, #3498db, #2980b9);
+    -webkit-border-radius: 5;
+    -moz-border-radius: 5;
+    border-radius: 5px;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    padding: 3px 12px;
+    border: solid #1f628d 0px;
+    text-decoration: none;
+}
+
+.button_accept:focus, .button_accept:hover, .button_cancel:focus, .button_cancel:hover, #search:focus, #search:hover, .button:focus, .button:hover, #loadMoreButton:focus, #loadMoreButton:hover, #retryButton:focus, #retryButton:hover, #next:focus, #next:hover, div.buttons a:focus, div.buttons a:hover, #profilepic_upload:focus, #profilepic_upload:hover, fieldset button:focus, fieldset button:hover, div.buttons button:focus, div.buttons button:hover, #refresh-subscriber-panel:focus, #refresh-subscriber-panel:hover, #callerid_unlink_button:focus, #callerid_unlink_button:hover {
+    background: #3cb0fd;
+    background-image: linear-gradient(to
+
+bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+}
+
+/* Hide Button Icons */
+
+div.buttons button img, fieldset button img, #next img, a.button img, div.buttons a img, a.button_accept img, #search img, button.button_accept img, #view4_singleagent_callsearch img, .buttons.navbar-btn img, button.buttons_selectsize img {
+    display: none;
+}
+
+/* small buttons */
+
+.buttons_small {
+    border-radius: 3px;
+    color: #000000;
+    background: #ffffff;
+    padding: 2px 5px 5px 6px;
+    border: solid black 1px;
+}
+
+.buttons_small:hover {
+    border-radius: 3px;
+    color: #082630;
+    background: #ffffff;
+    padding: 2px 5px 5px 6px;
+    border: solid #082630 1.1px;
+}
+
+/* END OF BUTTON sSTYLESs */
+
+/* Wiki Content */
+
+#page {
+    color: #000000;
+}
+
+/* Staff Contact Table */
+
+table.table-condensed.table-striped {
+    color: #000000;
+}
+
+/* Ticket History Styles */
+
+div.info_outer {
+    color: #000000;
+}
+
+div.error_info {
+    color: #000000;
+}
+
+/* CALL BAR */
+
+/* Toggle Call Box Image
+
+img[src="/icons/fatcow/16x16/bullet_toggle_box.png"] {
+    content: url("http://cdn.mysitemyway.com/icons-watermarks/simple-black/classica/classica_plus-sign-1/classica_plus-sign-1_simple-black_128x128.png");
+    height: 24px;
+    width: 24px;
+} */
+
+/* Clock Image */
+
+img[src="/icons/fatcow/16x16/time.png"] {
+    content: url("https://cdn0.iconfinder.com/data/icons/feather/96/clock-128.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Wait-Ready Timer Image */
+
+img[src="/icons/fatcow/16x16/user_green.png"] {
+    content: url("https://d30y9cdsu7xlg0.cloudfront.net/png/7638-200.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Call Time Couter Image */
+
+img[src="/icons/fatcow/16x16/user_red.png"] {
+    content: url("https://www.iconexperience.com/_img/o_collection_png/green_dark_grey/512x512/plain/headset.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Incoming Call Image */
+
+img[src="/icons/fatcow/16x16/phone_ring.gif"] {
+    content: url("https://freeiconshop.com/wp-content/uploads/edd/phone-ring-solid.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* On Hold */
+
+img[src="/icons/fatcow/16x16/user_blue.png"] {
+    content: url("http://cdn.onlinewebfonts.com/svg/img_425563.svg");
+    filter: invert(100%);
+    height: 24px;
+    width: 24px;
+}
+
+/* Not Logged in Image */
+
+img[src="/icons/fatcow/16x16/user_delete.png"] {
+    content: url("https://www.shareicon.net/data/128x128/2016/12/12/862860_office_512x512.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Caller ID and Call Timer Disconnected Image */
+
+img[src="/icons/fatcow/16x16/vcard_delete.png"] {
+    content: url("https://cdn0.iconfinder.com/data/icons/people-on-the-street/47/caller-512.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Caller ID and Call Timer Connected Image */
+
+img[src="/icons/fatcow/16x16/vcard.png"] {
+    content: url("https://cdn0.iconfinder.com/data/icons/people-on-the-street/47/caller-512.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Number of Calls Image */
+
+img[src="/icons/fatcow/16x16/telephone.png"] {
+    content: url("https://cdn2.iconfinder.com/data/icons/user-interface-icons-bundle-4/32/207-512.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Bounced Calls Image */
+
+img[src="/icons/fatcow/16x16/telephone_bounce.png"] {
+    content: url("http://1.bp.blogspot.com/-4GqNOM9zlAM/VEPASaDb7jI/AAAAAAAACE0/kCy2_U22BlM/s1600/cannot-make-voice-calls-on-s5.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Average Call Time Image */
+
+img[src="/icons/fatcow/16x16/chart_bar.png"] {
+    content: url("https://cdn4.iconfinder.com/data/icons/chart/121/567097-chart_bar-512.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Connected Icon Image */
+
+img[src="/icons/fatcow/16x16/connect.png"] {
+    content: url("https://a.disquscdn.com/get?url=http%3A%2F%2Fsimpleicon.com%2Fwp-content%2Fuploads%2Flink-2.png&key=-rnY-X0c-N2GYxmKzOnShg");
+    height: 24px;
+    width: 24px;
+}
+
+/* Call Box Text Data Styling*/
+
+.callbox_data {
+    background: #f4f9b6;
+    font-weight: bold
+;
+}
+
+/* Funsized Call Box Styling */
+
+#view4_singleagent {
+    color: black;
+    background: #FFFFFF;
+}
+
+.callstat > span {
+    color: black;
+    font-weight: 700;
+}
+
+/* CALL BAR POP UP */
+
+/* Full Box */
+
+#asteriskClient_searchResults {
+    background: rgba(135, 135, 135, 0.3);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* Custom Greeting */
+
+.greeting-popup {
+    background: #3498db;
+    background-image: linear-gradient(to
+
+bottom, #3498db, #2980b9);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+div.greeting-popup h3 {
+    border-style: none;
+    padding: 1px
+;
+}
+
+#greeting-body {
+    background: #f4f9b6;
+    color: black;
+}
+
+/* Caller ID */
+
+#asteriskClient_cidsearch {
+    background: #3498db;
+    background-image: linear-gradient(to
+
+bottom, #3498db, #2980b9);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+#asteriskClient_cidsearch form h3 {
+    border-style: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 1px
+;
+}
+
+/* Call Notification DIV */
+
+#asteriskClient_notifications {
+    background: rgba(135, 135, 135, 0.3);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* 15 Minute Warning */
+
+#asteriskClient_message {
+    background: #3498db;
+    background-image: linear-gradient(to
+
+bottom, #3498db, #2980b9);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+/* Notification Title Test
+
+div.callbar #asteriskClient_searchResults::before {
+    content: "NOTIFICATIONS";
+    background-color: yellow;
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+    margin-right: -50%;
+} */
+
+/* Javascript Tooltip */
+
+.description_overlay {
+    color: Black;
+    border-radius: 5px;
+    background-image: linear-gradient(to bottom,#fcf8e3 0,#f8efc0 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fffcf8e3', endColorstr='#fff8efc0', GradientType=0);
+    background-repeat: repeat-x;
+    border-color: #f5e79e;
+}
+
+/* DT EXPERIMENTS */
+
+/* Past Questions */
+
+#decisiontree_past {
+    padding: 12px 2px 10px 30px ;
+    color: yellow;
+    border: solid 1.3px;
+    border-color: black;
+    border-radius: 5px;
+    background: rgba(135, 135, 135, 0.2)
+;
+}
+
+#decisiontree_past a {
+    color: white;
+}
+
+/*Current Question Span */
+
+#question {
+    color: white;
+}
+
+/* DIRECTIONS POP UP */
+
+.overlay {
+    border-radius: 5px;
+    padding: 12px 12px 16px 12px;
+}
+
+.content {
+    border-radius: 5px;
+}
+
+img[src="/icons/fatcow/32x32/cancel.png"] {
+    content: url("http://www.freeiconspng.com/uploads/red-circle-close-icon--2.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Expandables Exploration */
+
+.aqtree3clickable {
+    -webkit-box-shadow: 3px 3px 92px -7px rgba(0,0,0,0.3);
+    -moz-box-shadow: 3px 3px 92px -7px rgba(0,0,0,0.3);
+    box-shadow: 3px 3px 40px -7px rgba(0,0,0,0.3);
+}
+
+/* List Padding */
+
+.list-group {
+    padding: 4px;
+}
+
+.list-group ul {
+    padding: 4px;
+}
+
+.aq3closed {
+    background-color: #e2f0ff;
+    border: solid .5px lightgrey;
+    border-radius: 4px;
+    margin: 0px;
+    -webkit-box-shadow: 10px 13px 18px -8px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 13px 18px -8px rgba(0,0,0,0.1);
+    box-shadow: 10px 13px 18px -8px rgba(0,0,0,0.1);
+
+}
+
+.aq3open {
+    border: solid 0.1px lightgrey;
+    border-radius: 4px;
+    margin: 2px;
+    -webkit-box-shadow: 10px 13px 18px -8px rgba(0,0,0,0.3);
+    -moz-box-shadow: 10px 13px 18px -8px rgba(0,0,0,0.1);
+    box-shadow: 10px 13px 18px -8px rgba(0,0,0,0.1);
+}
+
+.aq3open a, .aq3closed a {
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    background: none;
+}
+
+.aq3bullet {
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    cursor: text;
+}
+
+/* Tool Login Buttons */
+
+button.toollogin {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    background: linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+}
+
+button.toollogin:hover {
+    border-radius: 5px 5px 0px 0px;
+    width: 100%;
+    background: linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+}
+
+span.toollogin {
+    padding: 2px 2px 2px 2px;
+    border: solid 1px;
+    border-radius: 0px 0px 5px 5px;
+    border-color: grey;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 1000;
+    margin: 0px 0px 0px 0px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    background: rgba(135, 135, 135, 0.2);
+    cursor: auto;
+}
+
+.toollogin.top .toollogin {
+    -webkit-box-shadow: 10px 13px 18px -8px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 13px 18px -8px rgba(0,0,0,0.5);
+    box-shadow: 6px 10px 18px -8px rgba(0,0,0,0.5);
+}
+
+/* DT Issues Text */
+
+.panel-default > span {
+    color: black;
+    padding: 10px
+;
+}
+
+.content > h1 {
+    color: black;
+}
+
+/* Alerts */
+
+.alert-danger {
+    background: linear-gradient(to bottom, #ffffcc 0%, #ffff99 100%);
+    color: black;
+}
+
+/* Table Stylings */
+
+.table-striped tbody tr:nth-child(even) {
+    background: lightgrey;
+}
+
+.searchresults {
+    color: white;
+}
+
+/* Notes Links */
+
+.link {
+    color: white;
+}
+
+/* CURRENT NOTICES */
+
+/* Current Header */
+
+.notice_item {
+    background: linear-gradient(to bottom, #ffff99 0%, #ffffcc 100%);
+    margin: 20px 0px 0px 0px;
+    padding: 10px 8px 8px 8px;
+    border-radius: 8px 8px 0px 0px;
+    border: 0px;
+}
+
+/* Current Header Info */
+
+span.notice_companyname {
+    font-weight: bold;
+    font-variant: small-caps;
+    font-size: 20px;
+}
+
+.notice_start {
+    background: rgba(254, 254, 254, 0.4);
+    padding: 2px 5px 5px 5px;
+    border-radius: 8px 8px 8px 8px;
+    margin: 4px 0px 0px 0px;
+}
+
+.notice_stop {
+    color: black;
+    background: rgba(254, 254, 254, 0.3);
+    padding: 2px 5px 5px 5px;
+    border-radius: 8px 8px 8px 8px;
+    margin: 4px 0px 0px 0px;
+}
+
+/* Notice Body */
+
+.notice_body {
+    background-color: white;
+    margin: 0px 0px 5px 0px;
+    padding: 5px 5px 5px 15px;
+    border-radius: 0px 0px 8px 8px;
+}
+
+/* OPEN INFO Hover EXPLORATION */
+
+#info_summary h3 {
+    color: white;
+}
+
+/* Open Outage */
+
+div#outage_summary {
+    background: rgba(254, 254, 254, 0.3);
+    border-radius: 5px;
+}
+
+#outage_summary {
+    background-color: white;
+    border-radius: 5px;
+}
+
+.outage_item_popup {
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background: linear-gradient(to bottom, #ffcccc 0%, #ffffcc 100%);
+}
+
+.expired_item_popup {
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background: linear-gradient(to bottom, #ffff99 0%, #ffffff 100%)
+    ;
+}
+
+.resolved_item_popup {
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background: linear-gradient(to bottom, #ccffcc 0%, #ffffff 100%)
+    ;
+}
+
+/* Open Info */
+
+.info_item_popup {
+    border-radius: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 5px;
+    background: linear-gradient(to bottom, #ccffff 0%, #ffffff 100%)
+;
+}
+
+.panel.panel-default {
+    -webkit-box-shadow: 10px 13px 18px -8px rgba(0,0,0,0.5);
+    -moz-box-shadow: 10px 13px 18px -8px rgba(0,0,0,0.5);
+    box-shadow: 6px 10px 18px -8px rgba(0,0,0,0.5);
+}
+
+
+#decisiontree li a:focus {
+	background-color: yellow;
+	color:black;
+}

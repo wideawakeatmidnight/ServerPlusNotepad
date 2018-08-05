@@ -1,0 +1,214 @@
+/* CALL BAR */
+
+/* Toggle Call Box Image
+
+img[src="/icons/fatcow/16x16/bullet_toggle_box.png"] {
+    content: url("http://cdn.mysitemyway.com/icons-watermarks/simple-black/classica/classica_plus-sign-1/classica_plus-sign-1_simple-black_128x128.png");
+    height: 24px;
+    width: 24px;
+} */
+
+/* Clock Image */
+
+img[src="/icons/fatcow/16x16/time.png"] {
+    content: url("https://cdn0.iconfinder.com/data/icons/feather/96/clock-128.png");
+    height: 24px;
+    width: 24px;
+    }
+
+/* Wait-Ready Timer Image */
+
+img[src="/icons/fatcow/16x16/user_green.png"] {
+    content: url("https://d30y9cdsu7xlg0.cloudfront.net/png/7638-200.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Call Time Couter Image */
+
+img[src="/icons/fatcow/16x16/user_red.png"] {
+    content: url("https://www.iconexperience.com/_img/o_collection_png/green_dark_grey/512x512/plain/headset.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Incoming Call Image */
+
+img[src="/icons/fatcow/16x16/phone_ring.gif"] {
+    content: url("https://freeiconshop.com/wp-content/uploads/edd/phone-ring-solid.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* On Hold */
+
+img[src="/icons/fatcow/16x16/user_blue.png"] {
+    content: url("http://cdn.onlinewebfonts.com/svg/img_425563.svg");
+    filter: invert(100%);
+    height: 24px;
+    width: 24px;
+}
+
+/* Not Logged in Image */
+
+img[src="/icons/fatcow/16x16/user_delete.png"] {
+    content: url("https://www.shareicon.net/data/128x128/2016/12/12/862860_office_512x512.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Caller ID and Call Timer Disconnected Image */
+
+img[src="/icons/fatcow/16x16/vcard_delete.png"] {
+    content: url("https://cdn0.iconfinder.com/data/icons/people-on-the-street/47/caller-512.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Caller ID and Call Timer Connected Image */
+
+img[src="/icons/fatcow/16x16/vcard.png"] {
+    content: url("https://cdn0.iconfinder.com/data/icons/people-on-the-street/47/caller-512.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Number of Calls Image */
+
+img[src="/icons/fatcow/16x16/telephone.png"] {
+    content: url("https://cdn2.iconfinder.com/data/icons/user-interface-icons-bundle-4/32/207-512.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Bounced Calls Image */
+
+img[src="/icons/fatcow/16x16/telephone_bounce.png"] {
+    content: url("http://1.bp.blogspot.com/-4GqNOM9zlAM/VEPASaDb7jI/AAAAAAAACE0/kCy2_U22BlM/s1600/cannot-make-voice-calls-on-s5.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Average Call Time Image */
+
+img[src="/icons/fatcow/16x16/chart_bar.png"] {
+    content: url("https://cdn4.iconfinder.com/data/icons/chart/121/567097-chart_bar-512.png");
+    height: 24px;
+    width: 24px;
+}
+
+/* Connected Icon Image */
+
+img[src="/icons/fatcow/16x16/connect.png"] {
+    content: url("https://a.disquscdn.com/get?url=http%3A%2F%2Fsimpleicon.com%2Fwp-content%2Fuploads%2Flink-2.png&key=-rnY-X0c-N2GYxmKzOnShg");
+    height: 24px;
+    width: 24px;
+}
+
+/* Call Box Text Data Styling*/
+
+.callbox_data {
+    background: #f4f9b6;
+    font-weight: bold
+;
+}
+
+/* Funsized Call Box Styling */
+
+#view4_singleagent {
+    color: black;
+    background: #FFFFFF;
+}
+
+.callstat > span {
+    color: black;
+    font-weight: 700;
+}
+
+/* CALL BAR POP UP */
+
+/* Full Box */
+
+#asteriskClient_searchResults {
+    background: rgba(135, 135, 135, 0.3);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* Custom Greeting */
+
+.greeting-popup {
+    background: #3498db;
+    background-image: linear-gradient(to
+
+bottom, #3498db, #2980b9);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+div.greeting-popup h3 {
+    border-style: none;
+    padding: 1px
+;
+}
+
+#greeting-body {
+    background: #f4f9b6;
+    color: black;
+}
+
+/* Caller ID */
+
+#asteriskClient_cidsearch {
+    background: #3498db;
+    background-image: linear-gradient(to
+
+bottom, #3498db, #2980b9);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+#asteriskClient_cidsearch form h3 {
+    border-style: none;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    padding: 1px
+;
+}
+
+/* Call Notification DIV */
+
+#asteriskClient_notifications {
+    background: rgba(135, 135, 135, 0.3);
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+/* 15 Minute Warning */
+
+#asteriskClient_message {
+    background: #3498db;
+    background-image: linear-gradient(to
+
+bottom, #3498db, #2980b9);
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    margin: 0px 0px 5px 0px;
+}
+
+/* Notification Title Test
+
+div.callbar #asteriskClient_searchResults::before {
+    content: "NOTIFICATIONS";
+    background-color: yellow;
+    color: black;
+    font-size: 150%;
+    font-weight: bold;
+    margin-right: -50%;
+} */
+
+#view4_singleagent {
+	padding: 4px;
+}

@@ -1,0 +1,52 @@
+body {
+  font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+  font-size: 100%;
+}
+
+
+/* Combination Table */
+
+table#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+
+table#t01 tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+table#t01 th {
+  color: white;
+  background-color: #082630;
+  text-align: left;
+  padding: 5px 5px 5px 15px;
+}
+
+
+/*Button Decorations */
+
+#ocean {
+  -moz-border-radius: 5;
+  -webkit-border-radius: 5;
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border: solid #1f628d 0px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  padding: 8px 12px;
+  text-decoration: none;
+  width: 90%;
+  margin: 10px;
+}
+
+#default {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  padding: 8px 12px;
+  text-decoration: none;
+  width: 90%;
+  margin: 10px;
+}

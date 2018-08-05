@@ -1,0 +1,69 @@
+
+
+
+
+Mouse Trap
+https://craig.is/killing/mice
+
+Mouse Trap Tutorials
+https://www.youtube.com/watch?v=Wwdjj3PkJ8Q
+
+Expandable Div Button
+https://stackoverflow.com/questions/16555644/how-can-i-make-a-link-inside-a-div-fill-the-entire-space-inside-the-div
+
+Load JAVA at the end of the page
+https://stackoverflow.com/questions/13917047/how-to-get-a-content-script-to-load-after-a-pages-javascript-has-executed
+
+button clicks
+https://stackoverflow.com/questions/2705583/how-to-simulate-a-click-with-javascript
+https://stackoverflow.com/questions/24278469/click-a-button-programmatically-js
+
+
+JS DOM elements "getElementBy  "
+https://www.w3schools.com/js/js_htmldom_elements.asp
+
+
+
+
+
+CSS Extention to disassemble
+https://chrome.google.com/webstore/detail/user-javascript-and-css/nbhcbdghjpllgmfilhnhkllmkecfmpld?hl=en
+
+
+InsertCSS with Extention
+https://developer.chrome.com/extensions/tabs#method-insertCSS
+https://stackoverflow.com/questions/9795058/how-to-run-chrome-tabs-insertcss-from-the-background-page-on-each-page
+
+
+
+Shortcuts to bypass in chrome
+https://developers.google.com/web/tools/chrome-devtools/shortcuts
+
+
+
+
+
+
+//https://stackoverflow.com/questions/18846271/css-how-to-target-a-specific-cell-inside-a-table
+//Selecting specific cells
+
+
+//Add IDs to Customer information Table
+
+
+
+//Select First row Second colomn
+tbody tr:first-child td:nth-child(2) {
+    background-color: #ff19ff;
+}
+
+//Select Name Location
+h3.panel-title.text-capitalize strong {
+    background-color: #ff03ff;
+}
+
+
+
+#subInfoBody .table.table-condensed tbody tr:first-child td:nth-child(2) {
+    background-color: #ff19ff;
+}

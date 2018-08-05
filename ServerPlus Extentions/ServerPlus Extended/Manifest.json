@@ -1,0 +1,64 @@
+{
+  "manifest_version": 2,
+  "name": "ServerPlus Extended",
+  "description": "This extension works with ServerPlus Notepad to improve UX.",
+  "version": "0.7",
+  "homepage_url": "https://tracker.serverplus.com",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup/popup.html"
+  },
+
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+
+  "permissions":[
+    "notifications",
+    "contextMenus"
+
+  ],
+
+
+  "options_page": "options/options.html",
+
+  "background": {
+    "scripts":["Jscripts/copyMenu.js"],
+    "persistent": false
+    },
+
+  "content_scripts": [
+      {
+        "all_frames": true,
+        "matches": ["http://tracker.serverplus.com/*", "https://tracker.serverplus.com/*"],
+        "js": ["Jscripts/jquery-3.2.1.min.js",
+          "Jscripts/sticky-kit.js",
+          "Jscripts/mousetrap.js",
+          "Jscripts/ExtractandPaste.js",
+          "Jscripts/DThighlight2.js",
+          "Jscripts/GhostRun.js",
+          "Jscripts/Affectbuttons.js",
+          "Jscripts/InjectCSS.js",
+          "Jscripts/OpenBackoffice.js"],
+        "run_at": "document_end"
+      },
+
+      {
+        "all_frames": true,
+        "matches": ["https://tracker.serverplus.com/*"],
+        "css": ["Templates/OceanBlue2.css",
+            "Templates/Components/Buttons.css",
+            "Templates/Components/callbar2.css",
+            "Templates/Components/DT.css"],
+
+        "run_at": "document_end"
+      }
+    ]
+
+
+
+
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                    <jnlp href="https://builds.visp.net/ubo7.0.jnlp" codebase="https://builds.visp.net/" spec="1.0+">
+                        <information>
+                            <title>Ultimate Back Office 7.0</title>
+                            <vendor>visp.net</vendor>
+                            <homepage href=""/>
+                            <description>Version 7.0</description>
+                            <description kind="short">Version 7.0</description>
+                                    <icon kind="splash" href="VispSplash.jpg"/>
+                                    <icon href="VispIcon.jpg" height="48" width="48"/>
+                                    <shortcut online="true">
+                                            <desktop/>
+                                            <menu submenu="visp.net"/>
+                                    </shortcut> 
+                        </information>
+                        <update check="always"/>
+                        <security>
+                    <all-permissions/>
+                    </security>
+                        <resources>
+                            <j2se version="1.8+" java-vm-args="-Xmx1024m -Dsun.java2d.dpiaware=false -Djava.net.preferIPv4Stack=true" initial-heap-size="512m" />
+									<jar href="release/v7_deprecate" main="true"/>
+                                    <jar download="eager" href="lib/BalloonTip-1.0-SNAPSHOT.jar"/>
+									<jar download="eager" href="lib/DJNativeSwing-SWT.jar"/>
+									<jar download="eager" href="lib/DJNativeSwing.jar"/>
+									<jar download="eager" href="lib/commons-codec-1.9.jar"/>
+									<jar download="eager" href="lib/commons-logging-1.2.jar"/>
+									<jar download="eager" href="lib/commons-net-3.0.1.jar"/>
+									<jar download="eager" href="lib/fastjson-1.2.9.jar"/>
+									<jar download="eager" href="lib/fluent-hc-4.5.jar"/>
+									<jar download="eager" href="lib/httpclient-4.5.jar"/>
+									<jar download="eager" href="lib/httpclient-cache-4.5.jar"/>
+									<jar download="eager" href="lib/httpclient-win-4.5.jar"/>
+									<jar download="eager" href="lib/httpcore-4.4.1.jar"/>
+									<jar download="eager" href="lib/httpmime-4.5.jar"/>
+									<jar download="eager" href="lib/icepdf-core.jar"/>
+									<jar download="eager" href="lib/icepdf-viewer.jar"/>
+									<jar download="eager" href="lib/ipp-java-qbapihelper-1.2.0-jar-with-dependencies.jar"/>
+									<jar download="eager" href="lib/ipp-java-qbapihelper-1.2.0.jar"/>
+									<jar download="eager" href="lib/ipp-v3-java-data-2.3.2.jar"/>
+									<jar download="eager" href="lib/ipp-v3-java-devkit-2.3.2-jar-with-dependencies.jar"/>
+									<jar download="eager" href="lib/ipp-v3-java-devkit-2.3.2-javadoc.jar"/>
+									<jar download="eager" href="lib/ipp-v3-java-devkit-2.3.2-shaded.jar"/>
+									<jar download="eager" href="lib/ipp-v3-java-devkit-2.3.2.jar"/>
+									<jar download="eager" href="lib/ipp-v3-java-devkit-pom-2.3.2-javadoc.jar"/>
+									<jar download="eager" href="lib/jai_imageio.jar"/>
+									<jar download="eager" href="lib/jazzy-core.jar"/>
+									<jar download="eager" href="lib/jazzy-swing.jar"/>
+									<jar download="eager" href="lib/jfxrt.jar"/>
+									<jar download="eager" href="lib/jna-4.1.0.jar"/>
+									<jar download="eager" href="lib/jna-platform-4.1.0.jar"/>
+									<jar download="eager" href="lib/jsch-0.1.53.jar"/>
+									<jar download="eager" href="lib/json-server.jar"/>
+									<jar download="eager" href="lib/jsoup-1.6.0.jar"/>
+									<jar download="eager" href="lib/notification-common.jar"/>
+									<jar download="eager" href="lib/poi-3.9.jar"/>
+									<jar download="eager" href="lib/shaded-dependencies-2.3.2-shaded.jar"/>
+									<jar download="eager" href="lib/sqlitejdbc-v056.jar"/>
+									<jar download="eager" href="lib/swt.jar"/>
+                    </resources>
+                    <application-desc name="Ultimate Back Office" main-class="clientone.Client">
+                    </application-desc>
+                    </jnlp>
+        
